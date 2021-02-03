@@ -1,0 +1,31 @@
+li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+a {
+   text-decoration: none;
+}
+
+.logo {
+  color: var(--title-color);
+}
+
+.logo .logo-text {
+  color: #2196F3;
+}
+
+.nav [href] {
+  color: var(--title-color );
+}
+
+
+.contact a {
+  color: #757575;
+}
+
