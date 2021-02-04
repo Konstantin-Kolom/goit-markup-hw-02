@@ -1,31 +1,113 @@
-li {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
+.body {
+  font-family: Roboto;
 }
 
-ul {
-  margin-left: 0;
-  padding-left: 0;
-}
-a {
-   text-decoration: none;
-}
-
+/* Стили логотипа */
 .logo {
-  color: var(--title-color);
+  color: var(--active-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .logo .logo-text {
-  color: #2196F3;
+  color: var(--title-color);
 }
 
-.nav [href] {
-  color: var(--title-color );
+/* Стили навигации */
+.nav-link {
+  color: var(--title-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--active-color);
+} 
 
-.contact a {
+.contacts-link {
   color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
+.contacts-link:hover {
+  color: var(--active-color);
+}
+
+/* Стили Герой */
+.hero {
+  background: var(--bg-hero);
+}
+
+.title-hero {
+  color: var(--text-active-color);
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.order-button {
+  color: var(--text-active-color);
+  background: var(--active-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+ 
+}
+
+/* Стили Наши достоинства*/
+
+.title-description {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.text-description {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Стили Чем занимаемся*/
+.title-work {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Стили Наша команда*/
+.title-staff {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.employee-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.employee-position {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3%;
+}
+
+/* Стили Подвал*/
+.footer {
+  background: var(--footer);
+}
+
+.logo-footer{
+  color: var(--text-active-color);
+}
+
+.address-text {
+  color: var(--text-active-color);
+  font-size: 14px;
+  font-weight: 400;
+}

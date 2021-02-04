@@ -1,0 +1,41 @@
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --text-active-color: #FFFFFF;
+  --active-color: #2196F3;
+  --bg-hero: #2F303A;
+  --footer: #2F303A;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+/* a {
+  text-decoration: none;
+}  */
+
+li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+  
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+  
