@@ -101,6 +101,10 @@
 }
 
 /* Стили Наша команда*/
+.staff {
+  background: #F5F4FA;
+}
+
 .title-staff {
   font-weight: 700;
   font-size: 36px;
