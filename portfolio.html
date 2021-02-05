@@ -4,91 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/common.css">
-    <link rel="stylesheet" href="./CSS/portfolio.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
-<body>
+
+<body class="body">
     <header>
         <nav>
-            <a href="">
-                WebStudio
+            <a class="logo" href="">
+            Web<span class="logo-text">Studio</span>
             </a>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>    
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </nav>
-     </header>
+                <li><a class="nav-link" href="">Студия</a></li>
+                <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link" href="">Контакты</a> </li>
+            </ul>  
+        </nav>  
+        <ul>
+            <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+
     <main>
         <section>
             <h1 class="visually-hidden">Наши разработки</h1>
             <ul>
-                <li><button>Все</button></li>
-                <li><button>Веб-сайт</button></li>
-                <li><button>Приложения</button></li>
-                <li><button>Дизайн</button></li>
-                <li><button>ВМаркетин</button></li>
+                <li><button type="button" class="bt-link">Все</button></li>
+                <li><button type="button" class="bt-link">Веб-сайт</button></li>
+                <li><button type="button" class="bt-link">Приложения</button></li>
+                <li><button type="button" class="bt-link">Дизайн</button></li>
+                <li><button type="button" class="bt-link">Маркетин</button></li>
             </ul>
    
-
             <ul>
                 <li>
-                    <img src="./images/portfolio/Technokryak.jpg" alt="Веб-сайт Технокряк" width="370">
+                    <img src="./images/portfolio/Technokryak.jpg" alt="Веб-сайт Технокряк" width="370" height="294">
                     <h2>Технокряк</h2>
                     <p>Веб-сайт</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
-                    <img src="./images/portfolio/Poster.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                    <img src="./images/portfolio/Poster.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
                     <h2>Постер New Orlean vs Golden Star</h2>
                     <p>Дизайн</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
-                    <img src="./images/portfolio/SeafoodRestaurant.jpg" alt="Ресторан Seafood" width="370">
+                    <img src="./images/portfolio/SeafoodRestaurant.jpg" alt="Ресторан Seafood" width="370" height="294">
                     <h2>Ресторан Seafood</h2>
                     <p>Приложение</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
-                    <img src="./images/portfolio/PrimeProject.jpg" alt="Проект Prime" width="370">
+                    <img src="./images/portfolio/PrimeProject.jpg" alt="Проект Prime" width="370" height="294">
                     <h2>Проект Prime</h2>
                     <p>Маркетинг</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
-                    <img src="./images/portfolio/BoxProject.jpg" alt="Проект Boxes" width="370">
+                    <img src="./images/portfolio/BoxProject.jpg" alt="Проект Boxes" width="370" height="294">
                     <h2>Проект Boxes</h2>
                     <p>Приложение</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
-                    <img src="./images/portfolio/Inspiration_Borders.jpg" alt="Inspiration has no Borders" width="370">
+                    <img src="./images/portfolio/Inspiration_Borders.jpg" alt="Inspiration has no Borders" width="370" height="294">
                     <h2>Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/LimitedEdition.jpg" alt="Издание Limited Editio" width="370">
                     <h2>Издание Limited Edition</h2>
                     <p>Дизайн</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/LABproject.jpg" alt="Проект LAB" width="370">
                     <h2>Проект LAB</h2>
                     <p>Маркетинг</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
                 <li>
                     <img src="./images/portfolio/GrowingBusiness.jpg" alt="Growing Business" width="370">
                     <h2>Growing Business</h2>
                     <p>Приложение</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </li>
 
             </ul>
@@ -96,17 +109,18 @@
 
     </main>
 
-    <footer>
-        <a href="">WebStudio</a>
+    <footer class="footer">
+        <a class="logo" href="">
+            Web<span class="logo-footer">Studio</span>
+        </a>
 
         <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p> 
+        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p> 
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="footer-link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="footer-link " href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </address>  
-       
     </footer>
      
 </body>

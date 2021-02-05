@@ -1,14 +1,16 @@
 .body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* Стили логотипа */
 .logo {
   color: var(--active-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 400;
+  line-height: 1.2;
 }
 
 .logo .logo-text {
@@ -19,8 +21,10 @@
 .nav-link {
   color: var(--title-color);
   text-decoration: none;
-  font-size: 14px;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -30,9 +34,11 @@
 
 .contacts-link {
   color: #757575;
-  font-size: 14px;
-  font-weight: 500;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts-link:hover {
@@ -46,55 +52,74 @@
 
 .title-hero {
   color: var(--text-active-color);
-  font-size: 44px;
   font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .order-button {
   color: var(--text-active-color);
   background: var(--active-color);
   text-decoration: none;
-  font-size: 16px;
   font-weight: 700;
- 
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
 }
 
 /* Стили Наши достоинства*/
 
 .title-description {
   text-transform: uppercase;
-  font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .text-description {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.71;
 }
 
 /* Стили Чем занимаемся*/
 .title-work {
-  font-size: 36px;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 
 /* Стили Наша команда*/
 .title-staff {
-  font-size: 36px;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 
 .employee-title {
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  width: 270px;
+  height: 19px;
 }
 
 .employee-position {
   color: var(--text-color);
-  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 3%;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  width: 270px;
 }
 
 /* Стили Подвал*/
@@ -108,6 +133,30 @@
 
 .address-text {
   color: var(--text-active-color);
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.19;
 }
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+}
+
+
+/*Стилизация Кнопки Портфолио*/
+.bt-link {
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+}
+
+
+/*Стилизация Разработки*/
