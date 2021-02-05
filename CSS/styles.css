@@ -30,6 +30,10 @@
 .nav-link:hover,
 .nav-link:focus {
   color: var(--active-color);
+}
+
+.nav-link.active {
+  color: var(--active-color);
 } 
 
 .contacts-link {
@@ -124,7 +128,7 @@
 
 /* Стили Подвал*/
 .footer {
-  background: var(--footer);
+  background: var(--bg-footer);
 }
 
 .logo-footer{
@@ -147,16 +151,43 @@
 }
 
 
-/*Стилизация Кнопки Портфолио*/
-.bt-link {
-  color: var(--title-color);
+/*Стилизация Кнопки - Портфолио*/
+.bt {
+  color: var(---button-color);
+  background: var(--bg-button);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-
+  width: 128px;
+  height: 36.59px;
+  border-radius: 4px;
 }
 
+.bt.autofocus{
+  color: var(--button-color-active);
+  background: var(--bg-button-active);
+  
+}
 
-/*Стилизация Разработки*/
+/*Стилизация Разработки - Портфолио*/
+.program-title {
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: center;
+  width: 370px;
+}
+
+.program-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  width: 370px;
+}
