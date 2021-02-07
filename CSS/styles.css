@@ -68,7 +68,7 @@
   text-align: center;
   display: inline-block;
   color: var(--text-active-color);
-  background: var(--active-color);
+  background-color: var(--active-color);
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
@@ -161,7 +161,7 @@
 /*Стилизация Кнопки - Портфолио*/
 .bt {
   color: var(---button-color);
-  background: var(--bg-button);
+  background-color: var(--bg-button);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
