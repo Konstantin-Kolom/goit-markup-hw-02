@@ -51,7 +51,7 @@
 
 /* Стили Герой */
 .hero {
-  background: var(--bg-hero);
+  background-color: var(--bg-hero);
 }
 
 .title-hero {
@@ -105,7 +105,7 @@
 
 /* Стили Наша команда*/
 .staff {
-  background: #F5F4FA;
+  background-color: #F5F4FA;
 }
 
 .title-staff {
@@ -135,7 +135,7 @@
 
 /* Стили Подвал*/
 .footer {
-  background: var(--bg-footer);
+  background-color: var(--bg-footer);
 }
 
 .logo-footer{
@@ -174,7 +174,7 @@
 
 .bt.autofocus{
   color: var(--button-color-active);
-  background: var(--bg-button-active);
+  background-color: var(--bg-button-active);
   
 }
 
