@@ -3,19 +3,25 @@
   --text-color: #757575;
   --text-active-color: #FFFFFF;
   --active-color: #2196F3;
+
   --bg-hero: #2F303A;
   --bg-footer: #2F303A;
+
+  --link-color: #757575;
+  --link-color-foter: rgba(255, 255, 255, 0.6);
 
   --bg-button: #F5F4FA;
   --button-color: #212121;
   --bg-button-active: #2196F3;
   --button-color-active: #FFFFFF;
+
 }
 
-body {
+/* body {
   background-color: #FFFFFF;
+
   width: 1600px;
-}
+} */
 
 /* a {
   text-decoration: none;
