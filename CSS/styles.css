@@ -12,7 +12,7 @@
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -167,7 +167,7 @@
 
 
 /*Стилизация Кнопки - Портфолио*/
-.bt {
+.btn {
   color: var(---button-color);
   background-color: var(--bg-button);
   font-family: inherit;
@@ -178,9 +178,16 @@
   text-align: center;
   border-radius: 4px;
   padding: 6px 22px;
+  cursor: pointer;
 }
 
-.bt.autofocus{
+.btn:hover,
+.btn:focus {
+  color: var(--text-active-color);
+  background-color: var(--active-color);
+}
+
+.btn.autofocus{
   color: var(--button-color-active);
   background-color: var(--bg-button-active);
   
